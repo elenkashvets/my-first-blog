@@ -7,7 +7,7 @@ body {
 	    background: linear-gradient(to top, #C608EF, #FFFFFF);
 }
 .page-header {
-        background-color: #9A35BD;
+    background-color: #9A35BD;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -55,4 +55,5 @@ h1, h2, h3, h4 {
 }
 .img{
 float: right;
+width: 92px;
 }

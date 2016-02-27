@@ -6,11 +6,11 @@
 	<h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
         <div class="post">
             <div class="date">
+			<img class="img" src="{% static 'qqq.png' %}">
                 {{ post.published_date }}
             </div>
            <!-- <h1><a href="">{{ post.title }}</a></h1>-->
             <p>{{ post.text|linebreaks }}</p>
-			<img class="img" src="{% static 'qqq.jpg' %}">
         </div>
     {% endfor %}
 {% endblock %}
